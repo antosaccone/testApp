@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Mi App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+	<div data-role="page" id="inicio">
+    	<div data-role="header">HEADER</div>
+		<h1>PANTALLA INICIAL</h1>
+        <a href="#productos" class="ui-btn ui-corner-all ui-btn-inline" data-transition="slideup">Ir a segunda pagina</a>
+        <div data-role="footer" data-position="fixed">FOOTER</div>
+	</div>
+    
+    <div data-role="page" id="productos">
+    	<div data-role="header">HEADER</div>
+		<h1>Productos</h1>
+        <a href="#inicio" class="ui-btn ui-corner-all ui-btn-inline" data-transition="slidedown">Inicio</a>
+        <div data-role="footer" data-position="fixed">FOOTER</div>
+	</div>
+    
+</body>
+</html>
