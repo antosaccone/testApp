@@ -18,9 +18,9 @@
     </author>
 	
 	<!-- No lo genero <icon src="ldpi.png" gap:platform="android" gap:density="ldpi" /> -->
-	<icon src="mipmap-mdpi/ic_launcher.png" gap:platform="android" gap:density="mdpi" />
-	<icon src="mipmap-hdpi/ic_launcher.png" gap:platform="android" gap:density="hdpi" />
-	<icon src="mipmap-xhdpi/ic_launcher.png" gap:platform="android" gap:density="xhdpi" />
-	<icon src="mipmap-xxhdpi/ic_launcher.png" gap:platform="android" gap:density="xxhdpi" />
+	<icon src="res/mipmap-mdpi/ic_launcher.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="res/mipmap-hdpi/ic_launcher.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="res/mipmap-xhdpi/ic_launcher.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="res/mipmap-xxhdpi/ic_launcher.png" gap:platform="android" gap:density="xxhdpi" />
 
 </widget>
