@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "edu.maimonides.testApp"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Test App</name>
+
+    <description>
+        An app for testing purposes. 
+    </description>
+
+    <author href="https://misitio.com" email="antonella.saccone@hotmail.com">
+        Antonella Saccone
+    </author>
+	
+	<!-- No lo genero <icon src="ldpi.png" gap:platform="android" gap:density="ldpi" /> -->
+	<icon src="mipmap-mdpi/ic_launcher.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="mipmap-hdpi/ic_launcher.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="mipmap-xhdpi/ic_launcher.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="mipmap-xxhdpi/ic_launcher.png" gap:platform="android" gap:density="xxhdpi" />
+
+</widget>
